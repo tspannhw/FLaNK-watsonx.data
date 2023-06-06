@@ -8,9 +8,24 @@ Apache NiFi + Apache Kafka + Apache Flink + Presto (watsonx.data)
 http://nifi1:8282/ui/
 
 
-### Presto CLI
+### Presto CLI (Download https://prestodb.io/docs/current/installation/cli.html)
+
+Note:   use JDK 8
 
 ````
+
+./presto --server localhost:8282 --catalog kafka --schema default
+
+show schemas;
+ 
+use "ibm";
+
+show tables;
+
+    Table
+--------------
+ newjerseybus
+(1 row)
 
 
 describe "newjerseybus";

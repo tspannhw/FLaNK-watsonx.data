@@ -1,4 +1,5 @@
-# FLaNK-watsonx.data
+# FLaNK-watsonx.data (presto / ahana)
+
 Apache NiFi + Apache Kafka + Apache Flink + Presto (watsonx.data)
 
 
@@ -53,3 +54,5 @@ from "newjerseybus";
 
 * https://janakiev.com/blog/presto-cluster/
 * https://github.com/tspannhw/pulsar-transit-function
+* https://prestodb.io/docs/current/installation/cli.html
+* https://prestodb.io/docs/current/connector/kafka-tutorial.html

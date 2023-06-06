@@ -28,6 +28,9 @@ describe "newjerseybus";
  _timestamp        | bigint  |       | Offset Timestamp
 (9 rows)
 
+select _timestamp, _key, _message, _message_length
+from "newjerseybus";
+
 ````
 
 
